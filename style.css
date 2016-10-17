@@ -21,19 +21,19 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Globals type styling */
  h1, h2, h4, h5, h6, label, .btn{
-	font-family: 'Lato', sans-serif;
+	font-family:Lato;
 	font-weight:300;
 }
 h3{
-	font-family: 'Lato', sans-serif;
+	font-family:Lato;
 	font-weight:400;
 }
 p{
-	font-family: 'Lato', sans-serif;
+	font-family:Lato;
 	font-weight:400;
 }
 a{
-	font-family: 'Lato', sans-serif;
+	font-family:Lato;
 	font-weight:400;
 }
 
@@ -58,7 +58,6 @@ a{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	position:relative;
 }
 .bloc .container{
 	padding-left:0;
@@ -683,7 +682,7 @@ iframe{
 }
 /*Custom */
 .video_bloc_space{
-	padding:100px;
+	padding:0px;
 }
 {
 	content: " " ;
@@ -691,4 +690,7 @@ iframe{
 	margin-top:200px;
 	width:100px;
 	height:300px;
+}
+video{
+	width:100%;
 }
